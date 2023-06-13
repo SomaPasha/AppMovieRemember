@@ -10,6 +10,8 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/common_window_tool_bar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_border"
+        />
 
 </LinearLayout>
