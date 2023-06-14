@@ -1,4 +1,4 @@
-package com.example.appmovieremember.domain
+package com.example.appmovieremember.domain.entity
 
 import android.media.Rating
 import android.os.ParcelFileDescriptor
@@ -7,7 +7,6 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class MovieClass (
-    val id :Long,
     val image: String,
     val title:String,
     val description:String,
@@ -15,4 +14,6 @@ data class MovieClass (
     val rating: Float,
     val isLove:Boolean
 ) : Parcelable {
+    var id: Long? = null
 }
+
