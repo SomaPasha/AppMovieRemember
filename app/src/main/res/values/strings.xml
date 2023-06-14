@@ -3,4 +3,9 @@
     <string name="title_search">Поиск</string>
     <string name="setting_toolbar">Настройка</string>
     <string name="exit_toolbar">Выход</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_navigation_bar">Дом</string>
+    <string name="favorite_navigation_bar">Избранное</string>
+    <string name="stacked_navigation_bar">Рейтинг</string>
 </resources>

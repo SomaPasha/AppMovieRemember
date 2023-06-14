@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home_navigation_bar"
+        android:icon="@drawable/home_navigation_bar"
+        android:title="@string/home_navigation_bar"
+        />
+    <item
+        android:id="@+id/favorite_navigation_bar"
+        android:icon="@drawable/favorite_navigation_bar"
+        android:title="@string/favorite_navigation_bar"
+        />
+    <item
+        android:id="@+id/stacked_navigation_bar"
+        android:icon="@drawable/stacked_navigation_bar"
+        android:title="@string/stacked_navigation_bar"
+        />
+</menu>
