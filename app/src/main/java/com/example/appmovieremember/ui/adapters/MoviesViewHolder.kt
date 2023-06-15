@@ -8,10 +8,9 @@ import com.bumptech.glide.Glide
 import com.example.appmovieremember.R
 import com.example.appmovieremember.domain.entity.MovieClass
 
-    class MoviesViewHolder(
+class MoviesViewHolder(
         itemView: ViewGroup,
         listener: MoviesAdapter.onItemClickListener?,
-
         )
         : RecyclerView.ViewHolder(itemView) {
 
@@ -28,6 +27,7 @@ import com.example.appmovieremember.domain.entity.MovieClass
 
 
         fun bind(item: MovieClass) {
+
             this.movie = item
             if(item.image.isNotBlank()){
                 Glide.with(image.context)
@@ -39,12 +39,12 @@ import com.example.appmovieremember.domain.entity.MovieClass
                     .load(item.image)
                     .placeholder(R.drawable.favorite_navigation_bar)
                     .error(R.drawable.home_navigation_bar)
-                    .into(image)
+                    .into(imageLove)
             } else{
                 image.setImageResource(R.drawable.home_navigation_bar)
+                imageLove.setImageResource(R.drawable.home_navigation_bar)
             }
 
-            //image!!.setImageResource(item.image)
             nameTextView!!.text = item.title
             yearTextView!!.text = item.year.toString()
             ratingsTextView!!.text = item.rating.toString()

@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun createRepoEasy() {
         repoMovieEasy.createMovie(
-            MovieClass("https://thumbs.dfs.ivi.ru/storage5/contents/9/e/afef00f071174caaa41933f332524f.jpg",
-                "Duna","Я Фильм про1",2020,  6.9F, false)
+                MovieClass("https://thumbs.dfs.ivi.ru/storage5/contents/9/e/afef00f071174caaa41933f332524f.jpg",
+                    "Duna","Я Фильм про1",2020,  6.9F, false)
         )
         repoMovieEasy.createMovie(
             MovieClass("https://www.kino-teatr.ru/movie/posters/big/9/130649.jpg",
