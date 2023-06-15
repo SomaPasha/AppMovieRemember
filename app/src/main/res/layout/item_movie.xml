@@ -29,19 +29,20 @@
                 <FrameLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/image_movie_image_view"
+                        tools:src="@drawable/stacked_navigation_bar"
+                        android:layout_width="120dp"
+                        android:layout_height="200dp" >
+
+                    </ImageView>
                     <ImageView
                         android:id="@+id/is_love_movie_image_view"
                         tools:src="@drawable/stacked_navigation_bar"
                         android:layout_width="10dp"
                         android:layout_gravity="end"
                         android:layout_height="10dp" />
-                    <ImageView
-                        android:id="@+id/image_movie_image_view"
-                        tools:src="@drawable/stacked_navigation_bar"
-                        android:layout_width="80dp"
-                        android:layout_height="100dp" >
-
-                    </ImageView>
                 </FrameLayout>
 
                 <TextView
