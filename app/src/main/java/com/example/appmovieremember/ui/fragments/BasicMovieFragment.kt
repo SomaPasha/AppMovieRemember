@@ -40,7 +40,7 @@ class BasicMovieFragment : Fragment() {
     private fun initRecyclerView(view: View) {
         recyclerView = view.findViewById(R.id.movie_basic_recycler_view)
         recyclerView?.adapter = adapter
-        recyclerView?.layoutManager = LinearLayoutManager(activity)
+        recyclerView?.layoutManager = LinearLayoutManager(activity, LinearLayoutManager.HORIZONTAL,false)
         adapter.setDataBase((requireActivity() as  MainActivity).repoMovieEasy.getMovie())
 
     }
